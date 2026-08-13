@@ -83,19 +83,3 @@ Vratikraj/
   cartography/   Maps of the campaign world
   sesh_info/     Per-session notes, one file per session
 ```
-
-- **`cartography/`** — hand-drawn / generated maps of the setting.
-  `Divocina.pdf` is the wilderness map.
-- **`sesh_info/`** — a numbered record of each session (`sesh1.pdf`,
-  `sesh2.pdf`, …): what happened, who was there, loose threads to pick up next
-  time. Add a new file per session rather than editing old ones, so the campaign
-  log stays chronological.
-
-New campaigns get their own top-level folder following the same pattern.
-
-## Notes
-
-- The rulebook PDFs were split page-exactly, without re-encoding, so image and
-  text quality matches the originals.
-- Page numbers in the tables above are PDF page numbers, not printed page
-  numbers (they differ by a page or two in the MM).
