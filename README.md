@@ -17,6 +17,16 @@ several hundred pages. The original full-book PDFs are not kept in the repo.
 PHB2014/      Player's Handbook, 14 chapters
 DMG2014/      Dungeon Master's Guide, 9 chapters + 4 appendices + index
 MM2014/       Monster Manual, 4 sections + index
+
+VGtM2016/     Volo's Guide to Monsters
+XGtE2017/     Xanathar's Guide to Everything
+MToF2018/     Mordenkainen's Tome of Foes
+TCoE2020/     Tasha's Cauldron of Everything
+FToD2021/     Fizban's Treasury of Dragons
+MPMotM2022/   Mordenkainen Presents: Monsters of the Multiverse
+BPCOTG2023/   Bigby Presents: Glory of the Giants
+
+Homebrew/     Fan material: the Artificer class pages, a disease compilation
 Vratikraj/    Campaign management for the Vratikraj campaign
 ```
 
@@ -72,6 +82,36 @@ The Monster Manual has no chapters, so it is split along its actual structure.
 | `MM_sec3_appA_miscCreatures.pdf` | 318–342 | Appendix A: Miscellaneous Creatures |
 | `MM_sec4_appB_npcs.pdf` | 343–351 | Appendix B: Nonplayer Characters |
 | `MM_index.pdf` | 352–354 | Index of stat blocks |
+
+## Supplements
+
+Seven supplement books, split the same way and for the same reason. The page
+ranges were worked out from each book's own contents page and checked against
+the chapter openings in the body; `tools/split_book.py` in the dmtools
+checkout holds them and can redo the split.
+
+Two of these are OCR'd scans whose page numbers come out damaged, and
+**Bigby's has no text layer at all** — every page is a JPEG, so nothing in it
+can be searched or extracted without OCR first.
+
+| Directory | Book | Files | Pages |
+| --- | --- | --- | --- |
+| `VGtM2016/` | Volo's Guide to Monsters | 7 | 226 |
+| `XGtE2017/` | Xanathar's Guide to Everything | 6 | 196 |
+| `MToF2018/` | Mordenkainen's Tome of Foes | 8 | 258 |
+| `TCoE2020/` | Tasha's Cauldron of Everything | 5 | 194 |
+| `FToD2021/` | Fizban's Treasury of Dragons | 7 | 227 |
+| `MPMotM2022/` | Mordenkainen Presents: Monsters of the Multiverse | 4 | 291 |
+| `BPCOTG2023/` | Bigby Presents: Glory of the Giants (scanned) | 9 | 193 |
+
+Each follows the core books' naming: `<PREFIX>_intro.pdf`, then
+`<PREFIX>_chapN_<name>.pdf` and `<PREFIX>_appX_<name>.pdf`. As with the core
+three, a part-divider page is kept with the chapter it opens.
+
+The full-book PDFs are **still here** — unlike the core three, they have not
+been deleted. Removing them is a one-way step and the split can always be
+redone from them, so that is left as a deliberate choice rather than a side
+effect of splitting.
 
 ## Vratikraj — campaign management
 
