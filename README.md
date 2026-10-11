@@ -104,9 +104,6 @@ book's own bookmarks.
 | `PHB_appC_rulesGlossary.pdf` | 359–376 | Appendix C: Rules Glossary |
 | `PHB_index.pdf` | 377–387 | Index |
 
-The full-book PDF, `PlayersHandbook2024.pdf`, is **still here**, the same as
-for the supplements below.
-
 ## Supplements
 
 Seven supplement books, split the same way and for the same reason. The page
