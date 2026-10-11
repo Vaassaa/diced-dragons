@@ -1,8 +1,8 @@
 # diced-dragons
 
-A personal D&D 5e (2014 ruleset) repository: the three core rulebooks split into
-per-chapter PDFs for quick lookup at the table, plus the working files for the
-**Vratikraj** campaign.
+A personal D&D 5e repository: the three 2014 core rulebooks and the 2024
+Player's Handbook split into per-chapter PDFs for quick lookup at the table,
+plus the working files for the **Vratikraj** campaign.
 
 ## Why the books are split
 
@@ -17,6 +17,7 @@ several hundred pages. The original full-book PDFs are not kept in the repo.
 PHB2014/      Player's Handbook, 14 chapters
 DMG2014/      Dungeon Master's Guide, 9 chapters + 4 appendices + index
 MM2014/       Monster Manual, 4 sections + index
+PHB2024/      Player's Handbook (2024), 7 chapters + 3 appendices + index
 
 VGtM2016/     Volo's Guide to Monsters
 XGtE2017/     Xanathar's Guide to Everything
@@ -82,6 +83,29 @@ The Monster Manual has no chapters, so it is split along its actual structure.
 | `MM_sec3_appA_miscCreatures.pdf` | 318–342 | Appendix A: Miscellaneous Creatures |
 | `MM_sec4_appB_npcs.pdf` | 343–351 | Appendix B: Nonplayer Characters |
 | `MM_index.pdf` | 352–354 | Index of stat blocks |
+
+### PHB2024 — Player's Handbook (2024)
+
+The 2024 revision of the Player's Handbook. The page ranges come from the
+book's own bookmarks.
+
+| File | Pages | Contents |
+| --- | --- | --- |
+| `PHB_intro.pdf` | 1–5 | Cover, contents, Welcome to Adventure |
+| `PHB_chap1_playingTheGame.pdf` | 6–31 | Playing the Game |
+| `PHB_chap2_creatingCharacter.pdf` | 32–47 | Creating a Character |
+| `PHB_chap3_classes.pdf` | 48–175 | Character Classes |
+| `PHB_chap4_origins.pdf` | 176–197 | Character Origins (backgrounds, species) |
+| `PHB_chap5_feats.pdf` | 198–211 | Feats |
+| `PHB_chap6_equip.pdf` | 212–233 | Equipment |
+| `PHB_chap7_spells.pdf` | 234–342 | Spells |
+| `PHB_appA_multiverse.pdf` | 343–344 | Appendix A: The Multiverse |
+| `PHB_appB_creatureStats.pdf` | 345–358 | Appendix B: Creature Stat Blocks |
+| `PHB_appC_rulesGlossary.pdf` | 359–376 | Appendix C: Rules Glossary |
+| `PHB_index.pdf` | 377–387 | Index |
+
+The full-book PDF, `PlayersHandbook2024.pdf`, is **still here**, the same as
+for the supplements below.
 
 ## Supplements
 
