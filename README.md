@@ -1,8 +1,8 @@
 # diced-dragons
 
-A personal D&D 5e repository: the three 2014 core rulebooks and the 2024
-Player's Handbook split into per-chapter PDFs for quick lookup at the table,
-plus the working files for the **Vratikraj** campaign.
+A personal D&D 5e repository: the 2014 and 2024 core rulebooks split into
+per-chapter PDFs for quick lookup at the table, plus the working files for the
+**Vratikraj** campaign.
 
 ## Why the books are split
 
@@ -18,6 +18,8 @@ PHB2014/      Player's Handbook, 14 chapters
 DMG2014/      Dungeon Master's Guide, 9 chapters + 4 appendices + index
 MM2014/       Monster Manual, 4 sections + index
 PHB2024/      Player's Handbook (2024), 7 chapters + 3 appendices + index
+DMG2024/      Dungeon Master's Guide (2024), 8 chapters + 2 appendices + index
+MM2024/       Monster Manual (2024), monsters in 6 letter ranges + 2 appendices
 
 VGtM2016/     Volo's Guide to Monsters
 XGtE2017/     Xanathar's Guide to Everything
@@ -103,6 +105,45 @@ book's own bookmarks.
 | `PHB24_appB_creatureStats.pdf` | 345–358 | Appendix B: Creature Stat Blocks |
 | `PHB24_appC_rulesGlossary.pdf` | 359–376 | Appendix C: Rules Glossary |
 | `PHB24_index.pdf` | 377–387 | Index |
+
+### DMG2024 — Dungeon Master's Guide (2024)
+
+The PDF has no bookmarks, so the ranges come from the chapter title pages.
+Each chapter opens with one full-page artwork, which goes with the chapter.
+The PDF page is the printed page plus 4.
+
+| File | Pages | Contents |
+| --- | --- | --- |
+| `DMG24_intro.pdf` | 1–7 | Cover, credits, contents |
+| `DMG24_chap1_basics.pdf` | 8–23 | The Basics |
+| `DMG24_chap2_runningTheGame.pdf` | 24–53 | Running the Game |
+| `DMG24_chap3_dmToolbox.pdf` | 54–107 | DM's Toolbox |
+| `DMG24_chap4_creatingAdventures.pdf` | 108–129 | Creating Adventures |
+| `DMG24_chap5_creatingCampaigns.pdf` | 130–175 | Creating Campaigns (incl. Greyhawk) |
+| `DMG24_chap6_cosmology.pdf` | 176–214 | Cosmology |
+| `DMG24_chap7_treasure.pdf` | 215–335 | Treasure (incl. magic items A–Z) |
+| `DMG24_chap8_bastions.pdf` | 336–357 | Bastions |
+| `DMG24_appA_loreGlossary.pdf` | 358–368 | Appendix A: Lore Glossary |
+| `DMG24_appB_maps.pdf` | 369–383 | Appendix B: Maps |
+| `DMG24_index.pdf` | 384–388 | Index |
+
+### MM2024 — Monster Manual (2024)
+
+The scan is 330 MB. One file for all monsters is 285 MB, and GitHub refuses a
+file over 100 MB. So the monsters are split by first letter. Each part starts
+on the page of its first monster. The PDF page is the printed page plus 3.
+
+| File | Pages | Contents |
+| --- | --- | --- |
+| `MM24_intro.pdf` | 1–12 | Cover, credits, contents, How to Use a Monster |
+| `MM24_monsters_A-C.pdf` | 13–91 | Aarakocra to Cyclops |
+| `MM24_monsters_D-E.pdf` | 92–119 | Dao to Ettin |
+| `MM24_monsters_F-H.pdf` | 120–178 | Faerie Dragon to Hydra |
+| `MM24_monsters_I-N.pdf` | 179–232 | Ice Devil to Nycaloth |
+| `MM24_monsters_O-R.pdf` | 233–266 | Ochre Jelly to Rust Monster |
+| `MM24_monsters_S-Z.pdf` | 267–350 | Sahuagin to Zombies |
+| `MM24_appA_animals.pdf` | 351–376 | Appendix A: Animals |
+| `MM24_appB_monsterLists.pdf` | 377–390 | Appendix B: Monster Lists |
 
 ## Supplements
 
