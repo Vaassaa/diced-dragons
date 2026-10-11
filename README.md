@@ -91,18 +91,18 @@ book's own bookmarks.
 
 | File | Pages | Contents |
 | --- | --- | --- |
-| `PHB_intro.pdf` | 1–5 | Cover, contents, Welcome to Adventure |
-| `PHB_chap1_playingTheGame.pdf` | 6–31 | Playing the Game |
-| `PHB_chap2_creatingCharacter.pdf` | 32–47 | Creating a Character |
-| `PHB_chap3_classes.pdf` | 48–175 | Character Classes |
-| `PHB_chap4_origins.pdf` | 176–197 | Character Origins (backgrounds, species) |
-| `PHB_chap5_feats.pdf` | 198–211 | Feats |
-| `PHB_chap6_equip.pdf` | 212–233 | Equipment |
-| `PHB_chap7_spells.pdf` | 234–342 | Spells |
-| `PHB_appA_multiverse.pdf` | 343–344 | Appendix A: The Multiverse |
-| `PHB_appB_creatureStats.pdf` | 345–358 | Appendix B: Creature Stat Blocks |
-| `PHB_appC_rulesGlossary.pdf` | 359–376 | Appendix C: Rules Glossary |
-| `PHB_index.pdf` | 377–387 | Index |
+| `PHB24_intro.pdf` | 1–5 | Cover, contents, Welcome to Adventure |
+| `PHB24_chap1_playingTheGame.pdf` | 6–31 | Playing the Game |
+| `PHB24_chap2_creatingCharacter.pdf` | 32–47 | Creating a Character |
+| `PHB24_chap3_classes.pdf` | 48–175 | Character Classes |
+| `PHB24_chap4_origins.pdf` | 176–197 | Character Origins (backgrounds, species) |
+| `PHB24_chap5_feats.pdf` | 198–211 | Feats |
+| `PHB24_chap6_equip.pdf` | 212–233 | Equipment |
+| `PHB24_chap7_spells.pdf` | 234–342 | Spells |
+| `PHB24_appA_multiverse.pdf` | 343–344 | Appendix A: The Multiverse |
+| `PHB24_appB_creatureStats.pdf` | 345–358 | Appendix B: Creature Stat Blocks |
+| `PHB24_appC_rulesGlossary.pdf` | 359–376 | Appendix C: Rules Glossary |
+| `PHB24_index.pdf` | 377–387 | Index |
 
 ## Supplements
 
